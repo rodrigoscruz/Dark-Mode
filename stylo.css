@@ -5,7 +5,7 @@
 	padding: 0;
 }
 :root {
-	--dur: 0.3s;
+	--dur: 2.3s;
 	font-size: calc(40px + (80 - 40)*(100vw - 320px)/(2560 - 320));
 }
 body, input {
@@ -78,7 +78,7 @@ form {
 	transition-delay: 0s;
 }
 .toggle:checked:before, .toggle:after {
-	transition-delay: calc(var(--dur) * 0.75);
+	transition-delay: calc(var(--dur) * 1.05);
 	transition-timing-function: cubic-bezier(0.3,1.6,0.5,0.7);
 }
 .toggle:before {
@@ -96,3 +96,5 @@ form {
 .toggle:focus {
 	outline: transparent;
 }
+
+
